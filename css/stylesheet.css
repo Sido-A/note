@@ -507,10 +507,14 @@ section {
     object-fit: cover;
 }
 
-.detail h4, .detail p {
-    margin: 15px 10px;
+.detail h4{
+    margin: 0 30px;
 }
 
+.detail p  {
+    margin: 15px 30px;
+}
+    
 .newsView dl{
     width: 100%;
     
