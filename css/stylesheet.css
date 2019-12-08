@@ -1,0 +1,565 @@
+html {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  overflow: scroll;
+  
+  
+  
+  
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+h2,h3,h4 {
+    padding: 0;
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    margin-top: 150px;
+}
+
+.inner {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.navHeader::before {
+    content: '';
+    background-color: #e7e8e7;
+    height: 680px;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+
+.navHeader {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navList li {
+    margin-right: 50px;
+}
+
+.mainView {
+    position: relative;
+    height: 600px;
+
+}
+
+.mainView img {
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
+.mainView h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 3rem;
+    padding: .5rem;
+}
+
+
+
+.subflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.subContentImg {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.subContentImg img {
+    width: 100%;
+    object-fit: cover; 
+
+}
+
+.subContent {
+    width: 50%;
+    padding-bottom: 50px;
+    margin: 15px;
+}
+
+.subContent h2 {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.subContent p{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    
+}
+
+.workView {
+    position: relative;
+    
+}
+
+
+
+.workView::before {
+    content: '';
+    background-color: #e7e8e7;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.workView > .inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.workView h2{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 80px;
+
+}
+
+.workDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail {
+    width: 400px;
+
+}
+
+
+.newsView > .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.newsView h2{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+dl, dt, dd {
+    margin: 0 auto;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.newsView dl{
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e7e8e7;
+    
+}
+
+.newsView dt {
+    float: left;
+    padding: 20px 100px 20px 0;
+    color: #e7e8e7;
+
+}
+
+.newsView dd {
+    
+    padding: 20px 0;
+}
+
+.recruitView {
+    position: relative;
+}
+
+.recruitView::before {
+    content: '';
+    background-color: #e7e8e7;
+    width: 45%;
+    height: 350px;
+    position: absolute;
+    top: -10%;
+    left: 55%;
+    z-index: -1;
+}
+
+.recruitView img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.recruitView::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.recruitView h2{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: .1rem 4rem;
+    font-size: 3rem;
+    z-index: 5;
+
+}
+
+.footer > .inner {
+    width: 1200px;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.credit {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 0px;
+    background-color: #e7e8e7;
+    color: #333;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+.inner {
+    width: 980px;
+}
+
+
+.navHeader h1{
+    font-size: 2rem;
+    
+}
+
+.mainView {
+    height: 400px;
+
+}
+
+.subflex {
+    flex-direction: column-reverse;
+
+}
+
+.subContent {
+    width: 100%;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+
+.subContentImg {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.subContent p{
+    margin: 20px;
+    
+}
+
+
+
+.workDetails {
+    width: 100%;
+    object-fit: contain;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.detail:last-child {
+    margin-right: 50%;
+}
+
+
+.detail h4, .detail p {
+    margin: 5px 50px;
+}
+
+.newsView dl{
+    width: 90%;
+    
+}
+
+.newsView dt {
+    padding: 10px;
+
+}
+
+.newsView dd {
+    display: inline-block;
+    padding: 10px 0 10px 70px;
+}
+
+.footer > .inner {
+    width: 980px;
+}
+
+.navFooter > nav{
+    display: none;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+section {
+    margin-top: 50px;
+}
+
+.navHeader h1{
+    font-size: 2rem;
+    margin-left: 8px;
+    
+}
+
+.mainView {
+    height: 400px;
+
+}
+
+.inner {
+        width: 100%;
+}
+
+.nav {
+        display: none;
+}
+
+.nav::before {
+        font-family: 'FontAwesome';
+        content: '\f0c9';
+        display: block;
+        width: 100%;
+
+
+}
+
+.navHeader::before {    
+    height: 550px;
+    width: 80%;
+        
+}
+
+
+.mainView img {
+    width: 100%;
+    height: 400px;
+    margin-left: 0%;
+}
+
+.mainView h2 {
+    top: 25%;
+    left: 7%;
+    font-size: 2rem;
+}
+
+
+.workView::before {    
+    height: 100px;    
+    
+}
+
+.subflex {
+    flex-direction: column-reverse;
+
+}
+
+.subContent {
+    width: 100%;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.subContent h2 {
+    margin-bottom: 0;
+}
+
+
+.subContentImg {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.subContentImg img {
+    height: 400px;
+
+}
+
+
+
+.subContent p{
+    margin: 20px;
+    
+}
+
+.workView h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.workDetails {
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.detail:last-child {
+    margin-right: 0;
+}
+
+.detail img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.detail h4, .detail p {
+    margin: 15px 10px;
+}
+
+.newsView dl{
+    width: 100%;
+    
+}
+
+.newsView dd {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.recruitView::before {    
+    width: 80%;
+    height: 470px;
+    top: -7%;
+    left: 20%;
+}
+
+.recruitView img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.recruitView::after {
+    
+    width: 100%;
+    
+}
+
+.recruitView h2{
+    
+    top: 35%;
+    left: 25%;
+    padding: .15rem .9rem;
+    font-size: 2rem;
+
+}
+
+.navFooter {
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.navFooter dd {
+    font-size: .9rem;
+    display: inline-block;
+
+}
+
+}
