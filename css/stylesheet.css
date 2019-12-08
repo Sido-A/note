@@ -563,6 +563,7 @@ section {
 .navFooter dd {
     font-size: .9rem;
     display: inline-block;
+    width: 100%;
 
 }
 
